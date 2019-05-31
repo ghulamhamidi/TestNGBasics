@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7366" started-at="2019-05-30T19:58:22Z" finished-at="2019-05-30T19:58:29Z">
+  <suite name="Default suite" duration-ms="22417" started-at="2019-05-31T02:12:21Z" finished-at="2019-05-31T02:12:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7366" started-at="2019-05-30T19:58:22Z" finished-at="2019-05-30T19:58:29Z">
-      <class name="com.class1.OrangeHrmExample">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class1.OrangeHrmExample@1753acfe]" name="setUP" is-config="true" duration-ms="2152" started-at="2019-05-30T19:58:22Z" finished-at="2019-05-30T19:58:24Z">
+    <test name="Default test" duration-ms="22417" started-at="2019-05-31T02:12:21Z" finished-at="2019-05-31T02:12:43Z">
+      <class name="com.class2.SoftAndHardAssertExample">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class2.SoftAndHardAssertExample@548a9f61]" name="setUp" is-config="true" duration-ms="2316" started-at="2019-05-31T02:12:21Z" finished-at="2019-05-31T02:12:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.class1.OrangeHrmExample@1753acfe]" name="login" duration-ms="5126" started-at="2019-05-30T19:58:24Z" finished-at="2019-05-30T19:58:29Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="orangehrmLoginScreen()[pri:1, instance:com.class2.SoftAndHardAssertExample@548a9f61]" name="orangehrmLoginScreen" duration-ms="10" started-at="2019-05-31T02:12:23Z" finished-at="2019-05-31T02:12:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.class1.OrangeHrmExample@1753acfe]" name="close" is-config="true" duration-ms="73" started-at="2019-05-30T19:58:29Z" finished-at="2019-05-30T19:58:29Z">
+        </test-method> <!-- orangehrmLoginScreen -->
+        <test-method status="PASS" signature="logo()[pri:2, instance:com.class2.SoftAndHardAssertExample@548a9f61]" name="logo" duration-ms="20076" started-at="2019-05-31T02:12:23Z" finished-at="2019-05-31T02:12:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- com.class1.OrangeHrmExample -->
+        </test-method> <!-- logo -->
+      </class> <!-- com.class2.SoftAndHardAssertExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
