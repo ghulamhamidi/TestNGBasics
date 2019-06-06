@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suiteTest]">
+  <test thread-count="5" name="test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.class3.taskOne">
+        <methods>
+          <include name="personOneLogin"/>
+        </methods>
+      </class> <!-- com.class3.taskOne -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [suiteTest] -->

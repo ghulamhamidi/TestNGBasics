@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Smoke">
-  <test name="Sprint 1">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="com.class2.EnableAndDisable"/>
-      <class name="com.class1.BeforeAndAfterMethod"/>
+      <class name="com.class3.NewtoursExample"/>
     </classes>
-  </test> 
-  
-  <!-- Test -->
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
