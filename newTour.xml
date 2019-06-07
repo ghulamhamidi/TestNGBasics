@@ -1,12 +1,14 @@
-<suite name ="tourSuite">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
 <groups>
 <run>
-<include name ="Smoke"/>
+<exclude name ="Smoke"/>
 </run>
 </groups>
-<test name ="tourTest">
-<classes>
-<class name ="com.class3.NewtoursExample"/>
-</classes>
-</test>
-</suite>
+  <test name="Test">
+    <classes>
+      <class name="com.class3.NewtoursExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
