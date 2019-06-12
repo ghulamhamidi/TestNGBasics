@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <exclude name="Smoke"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="password" value="test"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?"/>
+    <parameter name="username" value="Tester"/>
     <classes>
-      <class name="com.class3.NewtoursExample">
+      <class name="com.class5.taskOne">
         <methods>
-          <include name="contactInformation"/>
-          <include name="setUP"/>
-          <include name="mailingInformation"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testUsers" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.class3.NewtoursExample -->
+      </class> <!-- com.class5.taskOne -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
